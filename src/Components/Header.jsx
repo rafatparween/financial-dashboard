@@ -13,7 +13,7 @@ const Header = () => {
 
                 <div className="w-6"></div>
 
-                <h2 className="text-[28px] text-[343C6A] font-bold">Overview</h2>
+                <h2 className="text-[28px] text-[343C6A] font-medium">Overview</h2>
 
             </div>
 
