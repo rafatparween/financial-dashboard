@@ -1,6 +1,6 @@
 # Welcome to the Financial Dashboard!
 
-The **Financial Dashboard** is your interactive tool to track and manage your financial activities. With an easy-to-navigate interface, you can view your card details, track recent transactions, explore weekly activities, analyze expense statistics, and manage your account settings seamlessly.
+The goal of this project is to create a financial dashboard application that allows users to easily manage their finances. The app will have different views for displaying important information like card details, transactions, spending stats, and account settings.
 
 
 📸 **Screenshot**  
