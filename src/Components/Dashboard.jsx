@@ -37,8 +37,8 @@ const Dashboard = () => {
         {/* My Cards Section */}
         <div className="xl:col-span-2">
           <div className="flex justify-between items-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-800">My Cards</h2>
-            <button className="text-blue-500 font-medium hover:underline">See All</button>
+            <h2 className="text-2xl font-bold text-gray-800 font-inter">My Cards</h2>
+            <button className="text-blue-500 font-medium hover:underline font-inter">See All</button>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Card 1 */}
