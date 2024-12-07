@@ -1,7 +1,6 @@
 # Welcome to the Financial Dashboard!
 
-The goal of this project is to create a financial dashboard application that allows users to easily manage their finances. The app will have different views for displaying important information like card details, transactions, spending stats, and account settings.
-
+The goal of this project is to create a financial dashboard application that allows users to easily manage their finances. The app will feature different views to display important information such as card details, transactions, weekly activity charts, expense statistics, and a settings page.
 
 📸 **Screenshot**  
 Here’s a glimpse of the Financial Dashboard interface, highlighting its user-friendly design and functionality:
