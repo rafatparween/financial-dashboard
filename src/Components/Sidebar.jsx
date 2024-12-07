@@ -16,7 +16,7 @@ const Sidebar = () => {
 
     return (
         <div className="flex">
-            <aside className="w-64 bg-white shadow-lg h-[1184px] w-[250px]">
+            <aside className="w-64 bg-white shadow-lg h-[1184px] w-[250px] ml-[18px]">
                 <nav className="mt-6 space-y-2">
                     {menuItems.map((item, index) => (
                         <div
@@ -26,15 +26,17 @@ const Sidebar = () => {
                             {item.route ? (
                                 <Link to={item.route} className="flex items-center w-full">
                                     <img
+                                        loading="lazy"
                                         src={item.icon}
                                         alt={item.name}
-                                        className="mr-3 w-6 h-6 object-contain"
+                                        className="mr-3 w-6 h-6 object-contain "
                                     />
                                     <span>{item.name}</span>
                                 </Link>
                             ) : (
                                 <div className="flex items-center w-full">
                                     <img
+                                        loading="lazy"
                                         src={item.icon}
                                         alt={item.name}
                                         className="mr-3 w-6 h-6 object-contain"

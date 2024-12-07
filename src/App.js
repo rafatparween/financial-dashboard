@@ -1,9 +1,10 @@
 import './App.css';
 import Dashboard from './Components/Dashboard';
-import Header from './Components/Header';
+
 import Sidebar from './Components/Sidebar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Setting from './Components/Setting';
+import Header from './Components/Header';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           {/* Use Routes instead of Switch */}
           <Routes>
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path="/settings" element={<Setting />} />
             {/* Add other routes as necessary */}
           </Routes>
