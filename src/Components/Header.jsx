@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <>
       {/* Mobile View */}
-      <header className="w-full flex flex-col sm:hidden items-center justify-between px-4 py-4 bg-white">
+      <header className="w-full flex flex-col sm:hidden items-center justify-between px-4 py-4 bg-white ml-41px">
         {/* Top Section for Logo and Profile */}
         <div className="w-full flex items-center justify-between sm:w-auto">
           <button className="sm:hidden">
